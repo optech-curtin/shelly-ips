@@ -9,12 +9,12 @@ const Home: NextPage = () => {
           Shelly Ip Address Table
         </h1>
         <div className={styles.grid}>
-          <a href="https://10.129.250.138" className={styles.card}>
+          <a href="http://10.129.250.138" className={styles.card}>
             <h2>POTRAT Room &rarr;</h2>
             <p>Shelly Pro 3</p>
           </a>
 
-          <a href="https://10.129.250.84" className={styles.card}>
+          <a href="http://10.129.250.84" className={styles.card}>
             <h2>CCTV Trailer &rarr;</h2>
             <p>Shelly Pro 2</p>
           </a>
