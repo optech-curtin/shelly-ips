@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "homepage": "https://finnmo.github.io/shelly-ips",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.2.0",
+    "next": "latest",
+    "next-auth": "^5.0.0-beta.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "@types/react": "18.3.3",
+    "gh-pages": "^6.1.1",
+    "typescript": "5.5.3"
+  }
+}
