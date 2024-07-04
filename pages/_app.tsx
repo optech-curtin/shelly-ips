@@ -1,10 +1,10 @@
-import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import Head from "next/head";
 import React from "react";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <ClerkProvider publishableKey={'pk_test_a25vd2luZy1ob3JzZS0xOC5jbGVyay5hY2NvdW50cy5kZXYk'}>
+    <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}>
       <Head>
         <title>Shelly Ips</title>
         <meta name="description" content="Made by Finn" />
